@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom handson</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body><div class="maincontainer">
+
+    <h2>Q1. Write the code to access element which is having id as "text"</h2>
+    <p>ans:- documen.getElementById("text")</p>
+    <h2>Q2. Write the code to access element which is having tag as "h2"</h2>
+    <p>ans:- documen.getElementByTagName("h2")</p>
+    <h2>Q3. Write the code to access element which is having class as "box"</h2>
+    <p>ans:- document.getElementsByClassName("box")</p>
+    <h2>Q4. Change the heading from ""Hello"" to ""Hello World"" using DOM functions"</h2>
+    <p>ans:- </p>
+    <h2 style="color: rgb(245, 245, 245);" class="hello">hello</h2>
+    <h2>Q5. Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h2>
+    <p>ans:- </p>
+    <h2 style="color:rgb(255, 255, 255) ;" class="rep">Hello World</h2>
+    <button onclick="replace()" style="color:rgb(66, 139, 223);" >Replace Text</button>
+    <h2>Q6. Hello<br>
+     Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h2 tag using DOM functions"
+    </h2>
+    <p>ans:- </p>
+    <h1 id="heading">Hello</h1>
+    <h2>Q7. Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</h2>
+    <p>ans:- </p>
+    <div class="container" id="container">
+        <div class="flex"></div>
+        <div class="flex"></div>
+        <div class="flex"></div>
+    </div>
+    <button class="change" onclick="changedirection()">Change Flex direction</button>
+    <h2>Q8. What is the difference between window vs document?</h2>
+    <p style="font-style: italic; font-weight: bolder; margin: 30px;">ans:-  the "window" object represents the browser window and provides overall control and access to various browser-related functionalities, while the "document" object specifically represents the loaded HTML document and facilitates manipulation and interaction with its content.</p>
+    <h2>Q9. Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h2>
+    <p>ans:- </p>
+    <div class="clocked"></div>
+    
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
